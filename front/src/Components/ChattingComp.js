@@ -5,8 +5,10 @@ const WebSocketComp = ({contents, username, message,
 
     return (
         <div>
-            <input value={username} onChange={e=>setUsername(e.target.value)}/>
-            <input value={message} onChange={e=>setMessage(e.target.value)}/>
+            <label htmlFor="username">송신자</label>
+            <input id="username"value={username} onChange={e=>setUsername(e.target.value)}/>
+            <label htmlFor="message">내용</label>
+            <input id="message"value={message} onChange={e=>setMessage(e.target.value)}/>
             <button onClick={() =>sendMessage(username, message)}>전송</button>
             <div>
                 {contents.map((message, idx) => (
