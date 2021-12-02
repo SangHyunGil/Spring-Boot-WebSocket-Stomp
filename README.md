@@ -30,7 +30,7 @@
 
 
 <p align="center">
-    <img src="?raw=true">
+    <img src="https://github.com/SangHyunGil/Spring-Boot-WebSocket-Stomp/blob/main/img/chat.gif?raw=true">
 </p>
 
 
